@@ -39,6 +39,9 @@ The SQL API Async Java SDK differs from the SQL API Java SDK by providing asynch
 
 ## Release notes
 
+### <a name="2.4.4"/>2.4.4
+* Bugfix for stored procedure in multi-master getting forbidden exceptions
+
 ### <a name="2.4.3"/>2.4.3
 * Bugfix for resource leak on client#close()  ([github #88](https://github.com/Azure/azure-cosmosdb-java/issues/88)).
 
